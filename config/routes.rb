@@ -1,4 +1,9 @@
 TestApp::Application.routes.draw do
+   root :to => "home#index.rhtml"
+  match "/ani" => "home#ani"
+
+  #get "home/index"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
